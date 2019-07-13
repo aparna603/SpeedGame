@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Game </title>
+	<link rel="stylesheet" type="text/css" href="https://bootswatch.com/4/minty/bootstrap.min.css">
+    <link rel="stylesheet"  href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	    <div class="nav justify-content-center">
+         	  <nav class="navbar-brand">WordBeater</nav>
+        </div>
+
+        <div class="jumbotron text-center "> 
+       	     
+            <div class="dropdown" >
+               <button class="dropbtn" id="button">Select level</button>
+                <div class="dropdown-content" id="selectedLevel">
+                   <a href="#" value="1" id="selectedLevel1">Easy</a>
+                   <a href="#" value="2" id="selectedLevel2" >Medium</a>
+                   <a href="#" value="3"id="selectedLevel3">Hard</a>
+                </div>
+            </div><br><br>
+
+       	     <h4>Type the given word within <span id="seconds">5</span> seconds</h4><br>
+       	     <div class="word" id="current-word"><br></div><br>
+       	     <input type="text" placeholder=" Start typing..." class="input" id="word-input" ><br><br>
+       	     <div class="row text-center">
+       	     <p class= "col-lg-6 col-md-12" id="time"> Time Left:</p> 
+       	     <p class="col-lg-6 col-md-12" id ="score">Total Score:0</p></div>
+       	     <p id="message"></p>
+
+       	     <div class="row mt-5">
+       	     	<div class="col-md-12">
+       	     		<div class="card card-body">
+       	     			<h5 class="instruction">Instructions</h5>
+       	     			 <p>Select the level you want to play. Type each word in the given amount of seconds to score. To play again, select the level again.</p>
+       	     
+                    </div>
+                </div>
+            </div>
+
+
+
+
+       </div> 
+
+
+         
+        
+
+</div>
+</div>
+
+<script src="JS/main.js"></script>
+	         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+	
+
+
+
+
+</body>
+</html>
